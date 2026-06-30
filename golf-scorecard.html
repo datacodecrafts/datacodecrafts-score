@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Golf Scorecard</title>
+  <link rel="stylesheet" href="scorecard-styles.css">
+</head>
+<body data-game="golf">
+
+  <div class="spine">
+    <span class="spine-title" aria-hidden="true">Mini Golf</span>
+    <nav class="spine-nav">
+      <a href="bowling-scorecard.html">Bowling</a>
+      <a href="golf-scorecard.html" class="current-page" aria-current="page">Golf</a>
+      <a href="yahtzee-scorecard.html">Yahtzee</a>
+    </nav>
+  </div>
+
+  <div class="content">
+    <header>
+      <span class="kicker">Course Tracker</span>
+      <h1>Mini Golf Scorecard</h1>
+    </header>
+
+    <main>
+      <p class="intro">
+        Click a player heading to enter a name, then record each player's
+        strokes for every hole. Compare each total to par to see who's
+        leading the course.
+      </p>
+
+      <div class="table-scroll">
+        <table class="scorecard-table">
+          <caption>Hole-by-hole strokes</caption>
+          <thead>
+            <tr>
+              <th>Hole</th>
+              <th>Par</th>
+              <th contenteditable="true">Player 1</th>
+              <th contenteditable="true">Player 2</th>
+              <th contenteditable="true">Player 3</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="round-no">1</td>
+              <td contenteditable="true">3</td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+            </tr>
+            <tr>
+              <td class="round-no">2</td>
+              <td contenteditable="true">2</td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+            </tr>
+            <tr>
+              <td class="round-no">3</td>
+              <td contenteditable="true">4</td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+            </tr>
+            <tr>
+              <td class="round-no">4</td>
+              <td contenteditable="true">3</td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+            </tr>
+            <tr>
+              <td class="round-no">5</td>
+              <td contenteditable="true">2</td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+            </tr>
+            <tr>
+              <td class="round-no">6</td>
+              <td contenteditable="true">3</td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+            </tr>
+            <tr>
+              <td class="round-no">7</td>
+              <td contenteditable="true">4</td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+            </tr>
+            <tr>
+              <td class="round-no">8</td>
+              <td contenteditable="true">3</td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+            </tr>
+            <tr>
+              <td class="round-no">9</td>
+              <td contenteditable="true">3</td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Total</td>
+              <td contenteditable="true">27</td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </main>
+  </div>
+
+</body>
+</html>

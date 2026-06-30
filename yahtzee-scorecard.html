@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yahtzee Scorecard</title>
+  <link rel="stylesheet" href="scorecard-styles.css">
+</head>
+<body data-game="yahtzee">
+
+  <div class="spine">
+    <span class="spine-title" aria-hidden="true">Yahtzee</span>
+    <nav class="spine-nav">
+      <a href="bowling-scorecard.html">Bowling</a>
+      <a href="golf-scorecard.html">Golf</a>
+      <a href="yahtzee-scorecard.html" class="current-page" aria-current="page">Yahtzee</a>
+    </nav>
+  </div>
+
+  <div class="content">
+    <header>
+      <span class="kicker">Dice Tracker</span>
+      <h1>Yahtzee Scorecard</h1>
+    </header>
+
+    <main>
+      <p class="intro">
+        Click a player heading to enter a name. Each round is one turn at a
+        category. Fill in the score a player earns after rolling and
+        add up the grand total at the end.
+      </p>
+
+      <div class="table-scroll">
+        <table class="scorecard-table">
+          <caption>Score by round and category</caption>
+          <thead>
+            <tr>
+              <th>Round</th>
+              <th>Category</th>
+              <th contenteditable="true">Player 1</th>
+              <th contenteditable="true">Player 2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="round-no">1</td>
+              <td>Ones</td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+            </tr>
+            <tr>
+              <td class="round-no">2</td>
+              <td>Twos</td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+            </tr>
+            <tr>
+              <td class="round-no">3</td>
+              <td>Threes</td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+            </tr>
+            <tr>
+              <td class="round-no">4</td>
+              <td>Fours</td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+            </tr>
+            <tr>
+              <td class="round-no">5</td>
+              <td>Fives</td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+            </tr>
+            <tr>
+              <td class="round-no">6</td>
+              <td>Sixes</td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+            </tr>
+            <tr>
+              <td class="round-no">7</td>
+              <td>Three of a Kind</td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+            </tr>
+            <tr>
+              <td class="round-no">8</td>
+              <td>Four of a Kind</td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+            </tr>
+            <tr>
+              <td class="round-no">9</td>
+              <td>Full House</td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+            </tr>
+            <tr>
+              <td class="round-no">10</td>
+              <td>Small Straight</td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+            </tr>
+            <tr>
+              <td class="round-no">11</td>
+              <td>Large Straight</td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+            </tr>
+            <tr>
+              <td class="round-no">12</td>
+              <td>Yahtzee</td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+            </tr>
+            <tr>
+              <td class="round-no">13</td>
+              <td>Chance</td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">Grand Total</td>
+              <td contenteditable="true"></td>
+              <td contenteditable="true"></td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </main>
+  </div>
+
+</body>
+</html>
